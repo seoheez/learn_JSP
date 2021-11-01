@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+	<h2>회원가입 양식</h2> <hr/>
+	<!-- input태그는 입력창을 만드는 태그이다. type속성으로 여러가지를 지정할 수 있다. -->
+	# 아이디: <input type="text"/> <br>
+	#비밀번호: <input type="password"/> <br>
+
+	<!-- radio타입은 동그라미 체크버튼을 만든다. &nbsp;는 스페이스바 명령이다. -->
+	#전공: <input type="radio" name="major"/> 경제학 &nbsp;
+	<input type="radio" name="major"/> 환경학&nbsp;
+	<input type="radio" name="major"/> 국제금융학&nbsp;
+	<input type="radio" name="major"/> 아프리카학&nbsp;<br>
+
+	#취미: <input type="checkbox" name="hobby"/> 독서&nbsp;
+	<input type="checkbox" name="hobby"/> 넷플릭스 시청&nbsp;
+	<input type="checkbox" name="hobby"/> 운동&nbsp;
+	<input type="checkbox" name="hobby"/> 악기연주&nbsp;<br>
+
+	#지역:
+	<select>
+		<option>서울</option>
+		<option>경기</option>
+		<option>강원</option>
+		<option>제주</option>
+	</select><br>
+
+	<input type="button" value="확인" /> &nbsp;
+	<input type="reset" value="초기화"/>
+</body>
+</html>
